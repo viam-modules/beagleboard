@@ -2,10 +2,8 @@
 package main
 
 import (
-	"context"
-
 	"beagleboard/beaglebone"
-
+	"context"
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
