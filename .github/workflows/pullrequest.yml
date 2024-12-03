@@ -10,7 +10,6 @@ on:
 jobs:
   test:
     uses: ./.github/workflows/test.yml
-    secrets:
 
   license_finder:
     uses: ./.github/workflows/license_finder.yml
