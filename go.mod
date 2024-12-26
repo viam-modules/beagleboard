@@ -1,4 +1,4 @@
-module beagleboard
+module github.com/viam-modules/beagleboard
 
 go 1.23.0
 
