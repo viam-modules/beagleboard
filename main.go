@@ -2,8 +2,9 @@
 package main
 
 import (
-	"beagleboard/beaglebone"
 	"context"
+
+	"github.com/viam-modules/beagleboard/beaglebone"
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
