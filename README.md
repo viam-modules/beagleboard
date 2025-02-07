@@ -6,15 +6,13 @@ This [beagleboard module](https://app.viam.com/module/viam/beagleboard) implemen
 
 Follow the [setup guide](https://docs.viam.com/installation/prepare/beaglebone-setup/) to prepare your BeagleBone for running `viam-server` before configuring a `beaglebone` board.
 
-## Configure your beaglebone board
-
 > [!NOTE]
 > Before configuring your board, you must [create a machine](https://docs.viam.com/cloud/machines/#add-a-new-machine).
 
 Navigate to the [**CONFIGURE** tab](https://docs.viam.com/configure/) of your [machine](https://docs.viam.com/fleet/machines/) in the [Viam app](https://app.viam.com/).
 [Add board / beagleboard:beaglebone to your machine](https://docs.viam.com/configure/#components).
 
-### Attributes
+## Configure your beaglebone board
 
 The following attributes are available for `viam:beagleboard:beaglebone` boards:
 
@@ -22,9 +20,7 @@ The following attributes are available for `viam:beagleboard:beaglebone` boards:
 | --------- | ---- | --------- | ----------  |
 | `digital_interrupts` | object | Optional | Any digital interrupts's pin number and name.|
 
-For instructions on implementing digital interrupts, see [Digital interrupt configuration](#Digital-interrupt-configuration).
-
-## Example configuration
+### Example configuration
 
 ### `viam:beagleboard:beaglebone`
 ```json
@@ -39,12 +35,7 @@ For instructions on implementing digital interrupts, see [Digital interrupt conf
   }
 ```
 
-### Next Steps
-- To test your board, expand the **TEST** section of its configuration pane or go to the [**CONTROL** tab](https://docs.viam.com/fleet/control/).
-- To write code against your board, use one of the [available SDKs](https://docs.viam.com/sdks/).
-- To view examples using a board component, explore [these tutorials](https://docs.viam.com/tutorials/).
-
-## Digital interrupt configuration
+### Digital interrupt configuration
 [Interrupts](https://en.wikipedia.org/wiki/Interrupt) are a method of signaling precise state changes.
 Configuring digital interrupts to monitor GPIO pins on your board is useful when your application needs to know precisely when there is a change in GPIO value between high and low.
 
@@ -101,3 +92,8 @@ The following attributes are available for `digital_interrupts`:
   ]
 }
 ```
+
+## Next Steps
+- To test your board, expand the **TEST** section of its configuration pane or go to the [**CONTROL** tab](https://docs.viam.com/fleet/control/).
+- To write code against your board, use one of the [available SDKs](https://docs.viam.com/sdks/).
+- To view examples using a board component, explore [these tutorials](https://docs.viam.com/tutorials/).
