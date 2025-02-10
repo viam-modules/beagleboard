@@ -10,7 +10,6 @@
       "model": "viam:beagleboard:beaglebone",
       "markdown_link": "README.md#configure-your-beaglebone-board",
       "short_description": "board model for the BeagleBone AI 64"
-
     }
   ],
   "build": {
