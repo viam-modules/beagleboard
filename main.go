@@ -5,6 +5,7 @@ import (
 	"context"
 
 	"github.com/viam-modules/beagleboard/beaglebone"
+	"github.com/viam-modules/beagleboard/beagley"
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
@@ -22,6 +23,10 @@ func mainWithArgs(ctx context.Context, args []string, logger logging.Logger) err
 	}
 
 	if err = module.AddModelFromRegistry(ctx, board.API, beaglebone.Model); err != nil {
+		return err
+	}
+
+	if err = module.AddModelFromRegistry(ctx, board.API, beagley.Model); err != nil {
 		return err
 	}
 

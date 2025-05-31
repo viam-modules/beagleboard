@@ -10,12 +10,20 @@
       "model": "viam:beagleboard:beaglebone",
       "markdown_link": "README.md#configure-your-beaglebone-board",
       "short_description": "board model for the BeagleBone AI 64"
+    },
+    {
+      "api": "rdk:component:board",
+      "model": "viam:beagleboard:beagle-y-ai",
+      "markdown_link": "README.md#configure-your-beagley-ai-board",
+      "short_description": "board model for the BeagleBoneY-AI"
     }
   ],
   "build": {
     "build": "make module",
     "path": "bin/module.tar.gz",
-    "arch" : ["linux/arm64"]
+    "arch": [
+      "linux/arm64"
+    ]
   },
   "entrypoint": "bin/beagleboard"
 }
