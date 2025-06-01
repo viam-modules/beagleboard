@@ -15,7 +15,7 @@
       "api": "rdk:component:board",
       "model": "viam:beagleboard:beagle-y-ai",
       "markdown_link": "README.md#configure-your-beagley-ai-board",
-      "short_description": "board model for the BeagleBoneY-AI"
+      "short_description": "board model for the BeagleY-AI"
     }
   ],
   "build": {
