@@ -1,6 +1,6 @@
 //go:build linux
 
-// Package beaglebone implements a BeagleY-AI based board.
+// Package beagley implements a BeagleY-AI based board.
 package beagley
 
 import (

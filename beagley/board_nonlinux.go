@@ -1,2 +1,2 @@
-// Package beaglebone is only available on Linux.
+// Package beagley implements a BeagleY-AI based board.
 package beagley
