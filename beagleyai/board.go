@@ -1,7 +1,7 @@
 //go:build linux
 
-// Package beagley implements a BeagleY-AI based board.
-package beagley
+// Package beagleyai implements a BeagleY-AI based board.
+package beagleyai
 
 import (
 	"context"
@@ -13,10 +13,10 @@ import (
 	"go.viam.com/rdk/resource"
 )
 
-const modelName = "beagley"
+const modelName = "beagle-y-ai"
 
 // Model for viam supported beagleboard beaglebone board.
-var Model = resource.NewModel("viam", "beagleboard", "beagle-y-ai")
+var Model = resource.NewModel("viam", "beagleboard", modelName)
 
 func init() {
 	gpioMappings, err := genericlinux.GetGPIOBoardMappings(modelName, boardInfoMappings)

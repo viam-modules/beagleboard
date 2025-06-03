@@ -1,4 +1,4 @@
-package beagley
+package beagleyai
 
 import "go.viam.com/rdk/components/board/genericlinux"
 
