@@ -4,12 +4,13 @@ package main
 import (
 	"context"
 
-	"github.com/viam-modules/beagleboard/beaglebone"
-	beagleYAi "github.com/viam-modules/beagleboard/beagleyai"
 	"go.viam.com/rdk/components/board"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/module"
 	"go.viam.com/utils"
+
+	"github.com/viam-modules/beagleboard/beaglebone"
+	beagleYAi "github.com/viam-modules/beagleboard/beagleyai"
 )
 
 func main() {
